@@ -1,34 +1,46 @@
-# Visualisasi Transformasi Vektor: Refleksi, Rotasi, Scaling, dan Shearing
-Aplikasi interaktif berbasis Python dan Streamlit untuk memvisualisasikan transformasi vektor 2D secara dinamis. 
-Mendukung animasi refleksi, rotasi, scaling, dan shearing dengan fitur export GIF dan CSV.
+Visualisasi Transformasi Vektor 2D (Refleksi, Rotasi, Skala, Shearing)
+Aplikasi interaktif berbasis Python dan Streamlit untuk memvisualisasikan transformasi linear pada vektor 2D. Mendukung animasi untuk refleksi, rotasi, scaling, dan shearing, serta ekspor hasil dalam bentuk GIF dan CSV.
 
-## 🤭 Fitur
-- Visualisasi interaktif transformasi vektor 2D
-- Animasi refleksi terhadap sumbu X, Y, dan garis y = x
-- Rotasi vektor dengan sudut tertentu
-- Scaling vektor dengan faktor skala
-- Shearing horizontal dan vertikal
-- Export hasil animasi ke format GIF
-- Export data transformasi ke CSV
+🔧 Fitur Utama
+Visualisasi interaktif transformasi vektor 2D
 
-##  Instalasi
-1. Clone repo:
-   git clone https://github.com/malikimayzar/nama-repo.git
-   cd nama-repo
+Refleksi terhadap sumbu X, Y, dan garis y = x
 
-##  Catatan
-- Semua transformasi dilakukan terhadap vektor 2D berbentuk `[x, y]`.
-- Untuk refleksi, arah sumbu atau garis bisa dipilih.
-- Untuk rotasi, sudut dalam derajat bisa disesuaikan.
-- Untuk scaling dan shearing, faktor bisa diatur secara interaktif.
+Rotasi dengan sudut tertentu
 
-##  Kontribusi
-Pull request dan diskusi sangat terbuka! Silakan laporkan bug, saran fitur, atau ide pengembangan.
+Scaling (penskalaan vektor)
 
-## Lisensi
-Proyek ini menggunakan lisensi MIT. Bebas digunakan dan dimodifikasi.
+Shearing horizontal & vertikal
 
-## Ig: malikimayzar 
-catatan : saya masi pemula dan ingin jadi seorang AI-enginer
-         bila ada yang tertarik menjadi AI-enginer juga DM aja siapa tau
-         kita bisa buat projek bareng
+Ekspor animasi ke GIF
+
+Ekspor data transformasi ke CSV
+
+🚀 Instalasi
+bash
+Copy
+Edit
+git clone https://github.com/malikimayzar/Transformasi-Vektor-Streamlit.git
+cd Transformasi-Vektor-Streamlit
+pip install -r requirements.txt
+streamlit run app.py
+📌 Catatan Penggunaan
+Semua transformasi berlaku untuk vektor 2D [x, y]
+
+Parameter seperti sudut rotasi atau faktor skala dapat disesuaikan secara interaktif
+
+Refleksi dapat dipilih berdasarkan sumbu atau garis tertentu
+
+🤝 Kontribusi
+Kontribusi sangat terbuka!
+Silakan ajukan pull request, laporkan bug, atau beri saran pengembangan fitur baru.
+
+🪪 Lisensi
+Lisensi: MIT License
+Bebas digunakan, dimodifikasi, dan disebarluaskan.
+
+🙋 Tentang Saya
+Instagram: @malikimayzar
+Saya masih pemula dan sedang belajar untuk menjadi seorang AI Engineer.
+Kalau kamu juga tertarik ke bidang ini, DM aja — siapa tahu bisa bikin proyek bareng!
+
